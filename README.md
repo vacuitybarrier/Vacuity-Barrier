@@ -8,7 +8,7 @@ Conditional Lower Bounds and Measured Premises for Latent World Model Planning
 [![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C.svg)](https://pytorch.org/)
 
-Official repository accompanying the research paper: **Dynamic LeJEPA** and associated ablation experiments on the **Push-T** environment.
+Official repository accompanying the research paper: **Vacuity-Barrier** and associated ablation experiments on the **Push-T** environment.
 
 ---
 
@@ -24,6 +24,16 @@ Ensure you have Python 3.13+ and a CUDA-compatible GPU installed. Install depend
 ```bash
 pip install -r requirements.txt
 ```
+Core Dependencies
+gym-pusht==0.1.6
+
+pymunk==6.11.1
+
+torch & torchvision
+
+scipy
+
+numpy
 
 🚀 Running Experiments
 1. Train Encoder-Predictor Pairs
